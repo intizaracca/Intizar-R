@@ -43,8 +43,11 @@ y<- 10:12
 cbind(x,y)
 rbind,y)
 # List
-#when a vector contains different types of classesx<- list(1, 'a,')
+#when a vector contains different types of classes.and do not perform conversion of list
 x<-list(1,'a', TRUE, 1 +4i)
 x
-v <- c(1,2,3,4,5)
+v <- c(1,2,'3',4,5)
 v
+x=503
+x
+ 
