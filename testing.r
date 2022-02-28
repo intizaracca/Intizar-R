@@ -136,7 +136,6 @@ y<- 10:12
 z<- c('a','b','c')
 cbind(x,y,z)
 n<- matrix(nrow=2, ncol=2)
-dim(n)<- c(2,3),c(5,5)
 x<- 1:6
 dim(x) <- c(2,3)
 x
