@@ -37,6 +37,7 @@ x<- 0:6
 as.complex(x)
 x<-2
 x
+<<<<<<< HEAD
 #Cloumn bind and Row bind
 x<- 1:3
 y<- 10:12
