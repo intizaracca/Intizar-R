@@ -37,6 +37,7 @@ x<- 0:6
 as.complex(x)
 x<-2
 x
+<<<<<<< HEAD
 #Cloumn bind and Row bind
 x<- 1:3
 y<- 10:12
@@ -142,3 +143,5 @@ x
 n<- matrix(nrow=2, ncol=2)
 n<-1:2
 n
+#=======
+#>>>>>>> daea7743d1af9e91a6f8bbf242bd876d57500ef5
