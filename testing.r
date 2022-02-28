@@ -37,12 +37,10 @@ x<- 0:6
 as.complex(x)
 x<-2
 x
-<<<<<<< HEAD
 #Cloumn bind and Row bind
 x<- 1:3
 y<- 10:12
 cbind(x,y)
-rbind,y)
 # List
 #when a vector contains different types of classes.and do not perform conversion of list
 x<-list(1,'a', TRUE, 1 +4i)
@@ -66,7 +64,6 @@ E
 class(E)
 as.numeric(E)
 class(E)
-E_1<- ('NO',5)
 E_1
 class(E_1)
 as.integer(E_1)
