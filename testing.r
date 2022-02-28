@@ -37,6 +37,7 @@ x<- 0:6
 as.complex(x)
 x<-2
 x
+
 #Cloumn bind and Row bind
 x<- 1:3
 y<- 10:12
@@ -140,3 +141,15 @@ x
 n<- matrix(nrow=2, ncol=2)
 n<-1:2
 n
+# subseting
+F<-c(2,3,5,8,9,7,4,5)
+F[5]
+F[1:3]
+F[F>6]
+y<- F>6
+y
+F[y]
+X <- matrix(1:6, 2, 3)
+X[1, 2]
+X[2,]
+X[1, 2, drop=FALSE] # drop fun
