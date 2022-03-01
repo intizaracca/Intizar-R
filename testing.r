@@ -37,7 +37,10 @@ x<- 0:6
 as.complex(x)
 x<-2
 x
+<<<<<<< HEAD
 
+=======
+>>>>>>> 964ab08fe36f720d0fbd2aeca2ba95aa6583affc
 #Cloumn bind and Row bind
 x<- 1:3
 y<- 10:12
@@ -141,6 +144,7 @@ x
 n<- matrix(nrow=2, ncol=2)
 n<-1:2
 n
+<<<<<<< HEAD
 # subseting
 F<-c(2,3,5,8,9,7,4,5)
 F[5]
@@ -154,3 +158,5 @@ X[1, 2]
 X[2,]
 X[1, 2, drop=FALSE] # drop fun
 #f
+=======
+>>>>>>> 964ab08fe36f720d0fbd2aeca2ba95aa6583affc
