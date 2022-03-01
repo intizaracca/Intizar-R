@@ -153,3 +153,4 @@ X <- matrix(1:6, 2, 3)
 X[1, 2]
 X[2,]
 X[1, 2, drop=FALSE] # drop fun
+#f
