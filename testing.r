@@ -154,6 +154,19 @@ X <- matrix(1:6, 2, 3)
 X[1, 2]
 X[2,]
 X[1, 2, drop=FALSE] # drop fun
-#f
-
-
+#Number
+01/01
+1/0
+1/Inf
+2/2
+1*0
+2*Inf
+# NaN is not a number
+# Attributes
+x<-5
+attributes(x)
+y<- 6
+attributes(y)
+# creating vector
+a<- c(1,2,3,4,5)
+a
