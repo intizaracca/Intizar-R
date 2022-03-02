@@ -154,6 +154,107 @@ X <- matrix(1:6, 2, 3)
 X[1, 2]
 X[2,]
 X[1, 2, drop=FALSE] # drop fun
-#f
-
-
+#Number
+01/01
+1/0
+1/Inf
+2/2
+1*0
+2*Inf
+# NaN is not a number
+# Attributes
+x<-5
+attributes(x)
+y<- 6
+attributes(y)
+# creating vector
+a<- c(1,2,3,4,5) # numeric
+b<- c('a','b')
+class(b)# character
+c<- c(1:10)
+c
+class(c) #integer
+x<- c(T, F)
+x
+class(x) # logic
+y<- c(1+0i, 5i)
+class(y)#complex
+#Explicit Coercion
+x<- 0:6
+x
+as.numeric(x)
+class(x)
+as.logical(x)
+class(x)
+as.character(x)
+class(x)
+#8.1 control structure
+x<- 4
+y<-0
+if (x>4){y<-10}
+y
+x
+x<- 5
+y<-0
+if (x>4){y<-10}
+y
+x <- 2
+y <- 0
+if(x > 3)
+  {y <- 10}
+x
+y
+x+y
+x <- 4
+y <- 0
+if(x > 3) {
+  y <- 10} else {y <- 0}
+y
+x <- matrix(1:6, 2, 3)
+for(i in seq_len(nrow(x))) 
+  {for(j in seq_len(ncol(x))) 
+  {print(x[i, j])}}
+x <- matrix(1:6, 2, 3)
+x
+for (i in seq_len(nrow(x)))
+i  
+x<-1:10
+?plot(x)
+## {} is the scope of if and start else after }
+x<-25
+if(is.integer(x))
+{
+  print('x is an integer number')
+}else
+{
+  print('This is not integer')
+}
+y<-c('hw','is','the')
+y
+if('the'%in%y)
+{
+  print('Key is found')
+}else{
+  print('Key is not found')
+}
+marks<-75
+if(marks>75){
+  print('First class')
+}else if(marks>65){
+  print('Second class')
+}else if(marks>45){
+  print('Third class')
+}else{
+  print('Fail')
+}
+marks<-40
+if(marks>75){
+  print('First class')
+}else if(marks>65){
+  print('Second class')
+}else if(marks>45){
+  print('Third class')
+}else{
+  print('Fail')
+}
+## Lec 10 
