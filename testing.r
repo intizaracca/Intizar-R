@@ -258,3 +258,5 @@ if(marks>75){
   print('Fail')
 }
 ## Lec 10 
+
+
