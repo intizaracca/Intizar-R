@@ -257,6 +257,14 @@ if(marks>75){
 }else{
   print('Fail')
 }
-## Lec 10 
+## Lec 13 Loops
+## lapply ,Sapply, apply, tapply, mapply.
+
+y<- list(a=1:5, b=rnorm(10) )
+lapply(y, mean)
+
+y<- list(a=1:5, b=rnorm(10) )
+y
+lapply(y, sum)
 
 
