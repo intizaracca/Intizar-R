@@ -374,3 +374,23 @@ data %>%
 
 
 ggsave("august_october_2020_makeover.tiff", width=5, height=5)
+
+m<- matrix(1:6, nrow =3, ncol = 3)
+m
+n<- 1:4
+y<- 20:23
+cbind(n,y)
+x<- 1:4
+y<- 20:23
+rbind(x,y)
+
+f<- factor(c('kpk','kpk','sind','sind','pak'))
+f
+table(f)
+
+unclass(f)
+
+x <- data.frame(day = 1:4, rain = c('Mon','Tue','Fri','Sun'))
+x
+?unclass
+ x[]
